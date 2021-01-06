@@ -23,7 +23,7 @@
             android:name="androidx.startup.InitializationProvider"
             android:authorities="${applicationId}.androidx-startup"
             tools:node="merge" >
-            <meta-data android:name="com.example.mybase.MyBaseInitializer"
+            <meta-data android:name="com.example.mylib.MyLibInitializer"
                 tools:node="remove" />
         </provider>
     </application>

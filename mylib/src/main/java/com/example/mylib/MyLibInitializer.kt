@@ -3,6 +3,7 @@ package com.example.mylib
 import android.content.Context
 import android.util.Log
 import androidx.startup.Initializer
+import com.example.mybase.MyBaseInitializer
 
 
 class MyLibInitializer : Initializer<Unit> {
@@ -12,6 +13,6 @@ class MyLibInitializer : Initializer<Unit> {
     }
 
     override fun dependencies(): MutableList<Class<out Initializer<*>>> {
-        return mutableListOf()
+        return mutableListOf(MyBaseInitializer::class.java)
     }
 }
