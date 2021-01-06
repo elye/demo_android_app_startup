@@ -1,0 +1,5 @@
+include ':appmanual'
+include ':mybase'
+include ':mylib'
+include ':appauto'
+rootProject.name = "My Application"
